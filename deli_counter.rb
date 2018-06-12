@@ -8,7 +8,7 @@ def line(katz_deli)
     katz_deli.each.with_index(0) do |name, index|
     line.push("#{index}.#{name}")
     end
-    puts "The line is currently: #{katz_deli.join(" ")}" #display who's in the line currently
+    puts "The line is currently: #{katz_deli.join(" ").length}" #display who's in the line currently
   end
 end
 
